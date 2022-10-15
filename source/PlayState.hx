@@ -1843,8 +1843,8 @@ class PlayState extends MusicBeatState
 		DiscordClient.changePresence(detailsText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 		#end
 
-		if(!ClientPrefs.controllerMode)
-		{	
+		
+			
 		FlxG.stage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyPress);	
 		FlxG.stage.addEventListener(KeyboardEvent.KEY_UP, onKeyRelease);
 
